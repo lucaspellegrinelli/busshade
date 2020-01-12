@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1.0"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:id="@+id/chooseFromStrip"
+            android:layout_weight="0.33"
+            android:background="@color/stipBackgroundDisabled"
+            android:layout_height="100dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/chooseFromStripImage"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_location_on_white_48dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:id="@+id/chooseDestStrip"
+            android:layout_weight="0.33"
+            android:background="@color/stipBackgroundDisabled"
+            android:layout_height="100dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/chooseDestStripImage"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_near_me_white_48dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:id="@+id/chooseTimeStrip"
+            android:layout_weight="0.33"
+            android:background="@color/stipBackgroundDisabled"
+            android:layout_height="100dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/chooseTimedStripImage"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_access_time_white_48dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!-- TEXTS -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1.0"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:id="@+id/chooseFromStripText"
+            android:layout_weight="0.33"
+            android:background="@color/chooseFromLocationStipBackgroundEnabledDark"
+            android:layout_height="30dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:textColor="@color/plainWhite"
+                android:text="@string/chooseFromBottomText"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:id="@+id/chooseDestStripText"
+            android:layout_weight="0.33"
+            android:background="@color/chooseDestLocationStipBackgroundEnabledDark"
+            android:layout_height="30dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="@color/plainWhite"
+                android:textAlignment="center"
+                android:text="@string/chooseDestBottomText"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:id="@+id/chooseTimeStripText"
+            android:layout_weight="0.33"
+            android:background="@color/chooseTimeStipBackgroundEnabledDark"
+            android:layout_height="30dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:textColor="@color/plainWhite"
+                android:text="@string/chooseTimeBottomText"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@color/googleMapsBackgroundColor"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight="0"
+            android:gravity="center"
+            android:weightSum="1.0"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@color/searchPlaceInputBackground"
+            android:layout_height="50dp">
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:layout_weight="1.0"
+                android:hint="@string/searchPlaceHint"
+                android:paddingLeft="10dp"
+                android:id="@+id/searchPlaceInput"
+                android:maxLines="1"
+                android:textSize="15sp"
+                android:background="#ffffff"
+                android:layout_height="40dp" />
+
+            <LinearLayout
+                android:layout_width="50dp"
+                android:id="@+id/searchPlaceButton"
+                android:background="@color/searchPlaceButton"
+                android:orientation="vertical"
+                android:layout_height="50dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="8dp"
+                    android:src="@drawable/ic_search_white_18dp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:weightSum="1.0"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/mapHolder"
+                android:orientation="vertical">
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_weight="0.5"
+                android:id="@+id/backStep"
+                android:background="@color/backStepTripConfigBackground"
+                android:layout_height="57.5dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:textSize="18sp"
+                    android:textAlignment="center"
+                    android:id="@+id/chooseSettingsStepBackText"
+                    android:textColor="@color/plainWhite"
+                    android:text="@string/chooseSettingsStepBack"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_weight="0.5"
+                android:id="@+id/forwardStep"
+                android:background="@color/forwardStepTripConfigBackground"
+                android:layout_height="57.5dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:textAlignment="center"
+                    android:textSize="18sp"
+                    android:id="@+id/chooseSettingsStepForwardText"
+                    android:textColor="@color/plainWhite"
+                    android:text="@string/chooseSettingsStepForward"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Busao</string>
+    <string name="google_maps_key">AIzaSyDB3dcmHm0Zu2a1-mbqStZWz4N1JFdLyXU</string>
+
+    <string name="chooseFromBottomText">inicio</string>
+    <string name="chooseDestBottomText">término</string>
+    <string name="chooseTimeBottomText">horário</string>
+
+    <string name="startLocationMarkerTitle">Posição inicial</string>
+    <string name="endLocationMarkerTitle">Destin</string>
+
+    <string name="chooseTimeAlertTitle">Escolha a hora</string>
+    <string name="chooseTimeAlertCancel">Cancelar</string>
+    <string name="chooseTimeAlertOk">Confirmar</string>
+
+    <string name="chooseSettingsStepForward">avançar</string>
+    <string name="chooseSettingsStepForwardFinalState">confirmar</string>
+    <string name="chooseSettingsStepBack">voltar</string>
+
+    <string name="searchPlaceHint">procurar local (ouro branco mg)...</string>
+
+    <string name="searchPlaceFailedTitle">Erro</string>
+    <string name="searchPlaceFailedContent">Não foi possível localizar o local desejado. Tente escrever de outra forma, talvez colocando mais detalhes sobre o lugar (estado, cidade, etc...).</string>
+    <string name="searchPlaceEmptyContent">Você não pode procurar por um lugar de nome vazio!</string>
+
+    <string name="findRouteFailedTitle">Erro</string>
+    <string name="findRouteFailedContent">Não foi possível achar uma rota entre os dois locais especificados.</string>
+
+    <string name="closeSimpleAlertMsg">FECHAR</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

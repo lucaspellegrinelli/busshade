@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2c3e50</color>
+    <color name="colorPrimaryDark">#202D3B</color>
+    <color name="colorAccent">#34495e</color>
+
+    <color name="plainWhite">#FFFFFF</color>
+
+    <color name="stipBackgroundDisabled">#2c3e50</color>
+
+    <color name="chooseFromLocationStipBackgroundEnabled">#e74c3c</color>
+    <color name="chooseDestLocationStipBackgroundEnabled">#3498db</color>
+    <color name="chooseTimeStipBackgroundEnabled">#2ecc71</color>
+
+    <color name="chooseFromLocationStipBackgroundEnabledDark">#c0392b</color>
+    <color name="chooseDestLocationStipBackgroundEnabledDark">#2980b9</color>
+    <color name="chooseTimeStipBackgroundEnabledDark">#27ae60</color>
+
+    <color name="backStepTripConfigBackground">#202D3B</color>
+    <color name="forwardStepTripConfigBackground">#202D3B</color>
+    <color name="backStepTripConfigBackgroundDisabled">#9C9C9C</color>
+    <color name="forwardStepTripConfigBackgroundDisabled">#9C9C9C</color>
+    <color name="forwardStepTripConfigBackgroundConfirmAction">#c0392b</color>
+    <color name="stepTripConfigTextDisabled">#D1D1D1</color>
+
+    <color name="searchPlaceInputBackground">#34495e</color>
+    <color name="searchPlaceButton">#2c3e50</color>
+
+    <color name="googleMapsBackgroundColor">#E9E5DC</color>
+
+    <color name="startPositionMarker">#e74c3c</color>
+    <color name="endPositionMarker">#3498db</color>
+
+    <color name="chooseTimeAlertColor">#2c3e50</color>
+    <color name="chooseTimeAlertButtonColor">#2c3e50</color>
+
+    <color name="resultAlertColor">#3498db</color>
+    <color name="resultAlertButtonColor">#2980b9</color>
+
+    <color name="simpleMsgAlertColor">#2ecc71</color>
+    <color name="simpleMsgAlertButtonColor">#27ae60</color>
+
+    <color name="loadingIconColor">#e9e9e9</color>
+</resources>
